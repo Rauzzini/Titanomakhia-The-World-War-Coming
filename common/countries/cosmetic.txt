@@ -21,3 +21,8 @@ CZE_AUS = {
 	color = rgb { 220 220 220 }
 	color_ui = rgb { 220 220 220 }
 }
+
+BOS_AUS = {
+	color = rgb { 220 220 220 }
+	color_ui = rgb { 220 220 220 }
+}

@@ -9,6 +9,10 @@ set_research_slots = 2
 set_technology = {
 }
 
+
+
+set_cosmetic_tag = BOS_AUS
+
 set_politics = {
 	ruling_party = liberalist
 	last_election = "1936.1.1"

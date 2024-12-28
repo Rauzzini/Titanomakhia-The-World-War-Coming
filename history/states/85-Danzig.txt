@@ -7,17 +7,12 @@ state = {
 
 	history = {
 
-		owner = POL
-		add_core_of = POL
-		add_core_of = DNZ
-		add_core_of = KSH
-		add_claim_by = PRE
+		owner = GER
+		add_core_of = GER
 
 		victory_points = {
 			362 10 # Danzig
 		}
-		
-		set_demilitarized_zone = yes
 		
 		buildings = {
 			infrastructure = 3
@@ -27,10 +22,6 @@ state = {
 			362 = {
 				naval_base = 5
 			}
-		}
-		
-		1938.3.12 = {
-			add_claim_by = GER
 		}
 	}
 

@@ -9,8 +9,6 @@ state = {
 
 		owner = GER
 		add_core_of = GER
-		add_core_of = HES
-		add_core_of = PRE
 
 		buildings = {
 
@@ -37,15 +35,6 @@ state = {
 
 		victory_points = {
 			11560 2 # Mainz
-		}
-
-		1939.1.1 = {
-			buildings = {
-				air_base = 3
-				arms_factory = 4
-				# From "Develop Heraeus Research Facilities"
-				industrial_complex = 4
-			}
 		}
 	}
 
