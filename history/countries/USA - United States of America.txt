@@ -1,0 +1,36 @@
+capital = 359
+
+
+recruit_character = USA_william_penn_adair_rogers
+
+set_research_slots = 2
+
+# Starting tech
+set_technology = {
+}
+
+set_convoys = 10
+
+create_faction = Inter_American_Security_Organization
+
+set_politics = {
+	ruling_party = liberalist
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	conservative = 30
+	liberalist = 36
+	progressive = 24
+	authoritarian = 6
+	despot = 4
+	reactionary = 0
+	state_socialist = 0
+	radical_socialist = 0
+	totalist = 0
+}
+
+add_ideas = {
+}

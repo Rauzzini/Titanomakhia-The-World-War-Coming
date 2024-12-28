@@ -1,0 +1,32 @@
+capital = 2
+
+
+recruit_character = ITA_benito_mussolini
+
+set_research_slots = 2
+
+# Starting tech
+set_technology = {
+}
+
+set_politics = {
+	ruling_party = state_socialist
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	conservative = 2
+	liberalist = 2
+	progressive = 0
+	authoritarian = 1
+	despot = 0
+	reactionary = 0
+	state_socialist = 75
+	radical_socialist = 12
+	totalist = 8
+}
+
+add_ideas = {
+}

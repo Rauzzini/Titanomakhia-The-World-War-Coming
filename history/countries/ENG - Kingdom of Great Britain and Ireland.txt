@@ -1,0 +1,37 @@
+capital = 126
+
+
+#recruit_character = ENG_neville_chamberlain
+#recruit_character = ENG_oswald_mosley
+
+set_research_slots = 2
+
+# Starting tech
+set_technology = {
+}
+
+set_convoys = 10
+
+#create_faction = British_Commonwealth
+
+set_politics = {
+	ruling_party = conservative
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	conservative = 36
+	liberalist = 18
+	progressive = 27
+	authoritarian = 0
+	despot = 0
+	reactionary = 0
+	state_socialist = 15
+	radical_socialist = 3
+	totalist = 1
+}
+
+add_ideas = {
+}

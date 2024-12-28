@@ -1,0 +1,34 @@
+capital = 16
+
+
+recruit_character = FRA_jean_de_orleans
+
+set_research_slots = 2
+
+# Starting tech
+set_technology = {
+}
+
+set_convoys = 10
+
+set_politics = {
+	ruling_party = reactionary
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	conservative = 1
+	liberalist = 2
+	progressive = 2
+	authoritarian = 4
+	despot = 6
+	reactionary = 80
+	state_socialist = 4
+	radical_socialist = 1
+	totalist = 0
+}
+
+add_ideas = {
+}

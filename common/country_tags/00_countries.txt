@@ -1,0 +1,120 @@
+### Majors ###
+USA = "countries/WestEur.txt" #United States of America
+ENG = "countries/WestEur.txt" #Kingdom of Great Britain and Ireland
+FRA = "countries/WestEur.txt" #French Republic
+GER = "countries/WestEur.txt" #German Empire
+AUS = "countries/WestEur.txt" #Austro-Hungarian-Bohemian Empire
+RUS = "countries/EastEur.txt" #Empire of Russia
+ITA = "countries/WestEur.txt" #Kingdom of Italy
+JAP = "countries/Asian.txt" #Great Empire of Japan
+
+
+### Western Europe ###
+BEL = "countries/WestEur.txt" #Kingdom of Belgium
+DEN = "countries/WestEur.txt" #Denmark
+FIN = "countries/WestEur.txt" #Finland
+HOL = "countries/WestEur.txt" #Kingdom of the Netherlands
+ICE = "countries/WestEur.txt" #Iceland
+IRE = "countries/WestEur.txt" #Ireland
+LUX = "countries/WestEur.txt" #Grand Duchy of Luxembourg
+NOR = "countries/WestEur.txt" #Kingdom of Norway
+POR = "countries/WestEur.txt" #Portugal
+SPA = "countries/WestEur.txt" #Kingdom of Spain
+SWE = "countries/WestEur.txt" #Kingdom of Sweden
+SWI = "countries/WestEur.txt" #Swiss Confederation
+
+### Eastern Europe ###
+ALB = "countries/EastEur.txt" #Albania
+BAT = "countries/EastEur.txt" #United Baltic Principality
+BOS = "countries/EastEur.txt" #Bosnia
+BUL = "countries/EastEur.txt" #Tsardom of Bulgaria
+CRN = "countries/EastEur.txt" #Montenegro
+CZE = "countries/EastEur.txt" #Czech
+EST = "countries/EastEur.txt" #Estonia
+GRE = "countries/EastEur.txt" #Greece
+HUN = "countries/EastEur.txt" #Hungary
+LAT = "countries/EastEur.txt" #Latvia
+LIT = "countries/EastEur.txt" #Lithuania
+POL = "countries/EastEur.txt" #Poland
+ROM = "countries/EastEur.txt" #Romania
+SER = "countries/EastEur.txt" #Serbia
+
+### Asian ###
+BHU = "countries/Asian.txt" #Kingdom of Bhutan
+INS = "countries/Asian.txt" #Indonesia
+KOR = "countries/Asian.txt" #Korea
+MON = "countries/Asian.txt" #Mongolia
+NEP = "countries/Asian.txt" #Nepal
+SIA = "countries/Asian.txt" #Siam
+TIB = "countries/Asian.txt" #Tibet
+
+NEI = "countries/WestEur.txt" #Netherlands East Indies
+PHI = "countries/WestEur.txt" #Commonwealth of the Philippines
+MAL = "countries/WestEur.txt" #British Malaya
+
+### Oceania ###
+AST = "countries/WestEur.txt" #Commonwealth of Australia
+NZL = "countries/WestEur.txt" #New Zealand
+
+### China ###
+YAN = "countries/Asian.txt" #Yan dynasty
+CHI = "countries/Asian.txt" #Republic of China
+
+GDN = "countries/Asian.txt" #Guangdong Clique
+GXI = "countries/Asian.txt" #Guangxi Clique
+MUK = "countries/Asian.txt" #Fengtian Clique
+SCH = "countries/Asian.txt" #Sichuan Clique
+SHX = "countries/Asian.txt" #Shanxi Clique
+SIK = "countries/Asian.txt" #Xinjiang Clique
+XBI = "countries/Asian.txt" #Xibei Jun
+XSM = "countries/Asian.txt" #Xibei San Ma
+YUN = "countries/Asian.txt" #Yunnan Clique
+
+### Indian ###
+RAJ = "countries/Indian.txt" #British Dominion of India
+
+### MidEast ###
+AFG = "countries/MidEast.txt" #Kingdom of Afghanistan
+EGY = "countries/MidEast.txt" #Autonomous Territory of Egypt
+JBS = "countries/MidEast.txt" #Emirate of Jabal Shammar
+OMA = "countries/MidEast.txt" #Sultanate of Muscat and Oman
+OTT = "countries/MidEast.txt" #Ottoman Empire
+PER = "countries/MidEast.txt" #Imperial State of Persia
+SAU = "countries/MidEast.txt" #Sultanate of Nejd
+YEM = "countries/MidEast.txt" #Mutawakkilite Kingdom of Yemen
+
+### North America###
+CAN = "countries/WestEur.txt" #Dominion of Canada
+
+### South/Central America ###
+BRA = "countries/WestEur.txt" #United Brazilian States
+
+HAI = "countries/African.txt" #Republic of Haiti
+
+ARG = "countries/SouthAm.txt" #Argentine Republic
+BOL = "countries/SouthAm.txt" #Republic of Bolivia
+CHL = "countries/SouthAm.txt" #Republic of Chile
+COL = "countries/SouthAm.txt" #Republic of Colombia
+COS = "countries/SouthAm.txt" #Republic of Costa Rica
+CUB = "countries/SouthAm.txt" #Republic of Cuba
+DOM = "countries/SouthAm.txt" #Dominican Republic
+ECU = "countries/SouthAm.txt" #Republic of Ecuador
+ELS = "countries/SouthAm.txt" #Republic of El Salvador
+GUA = "countries/SouthAm.txt" #Republic of Guatemala
+HON = "countries/SouthAm.txt" #Republic of Honduras
+MEX = "countries/SouthAm.txt" #United Mexican States
+NIC = "countries/SouthAm.txt" #Republic of Nicaragua
+PAN = "countries/SouthAm.txt" #Republic of Panama
+PAR = "countries/SouthAm.txt" #Republic of Paraguay
+PRU = "countries/SouthAm.txt" #Republic of Peru
+URG = "countries/SouthAm.txt" #Oriental Republic of Uruguay
+VEN = "countries/SouthAm.txt" #Bolivarian Republic of Venezuela
+
+### Africa ###
+SAF = "countries/WestEur.txt" #Union of South Africa
+
+ETH = "countries/African.txt" #Ethiopian Empire
+LIB = "countries/African.txt" #Republic of Liberia
+
+### Colony ###
+ZZZ = "countries/African.txt" #indigenous people

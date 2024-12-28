@@ -1,0 +1,106 @@
+bookmarks = {
+	bookmark = {
+		name = "TM_SCENARIO_NAME"
+		desc = "TM_SCENARIO_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "GER"
+		default = yes
+		
+		"USA"={
+			history = "TM_USA_GATHERING_STORM_DESC"
+			ideology = liberalist
+			ideas = {				
+			}
+			focuses = {
+			}
+		}
+		"ENG"={
+			history = "TM_ENG_GATHERING_STORM_DESC"
+			ideology = conservative
+			ideas = {				
+			}
+			focuses = {
+			}
+		}
+		"FRA"={
+			history = "TM_FRA_GATHERING_STORM_DESC"
+			ideology = progressive
+			ideas = {				
+			}
+			focuses = {
+			}
+		}
+		"GER"={
+			history = "TM_GER_GATHERING_STORM_DESC"
+			ideology = authoritarian
+			ideas = {				
+			}
+			focuses = {
+			}
+		}
+		"RUS"={
+			history = "TM_RUS_GATHERING_STORM_DESC"
+			ideology = authoritarian
+			ideas = {				
+			}
+			focuses = {
+			}
+		}
+		"ITA"={
+			history = "TM_ITA_GATHERING_STORM_DESC"
+			ideology = authoritarian
+			ideas = {				
+			}
+			focuses = {
+			}
+		}
+		"JAP"={
+			history = "TM_JAP_GATHERING_STORM_DESC"
+			ideology = conservative	
+			ideas = {				
+			}
+			focuses = {
+			}
+		}
+		
+
+		"---"={
+			history = "TM_OTHER_GATHERING_STORM_DESC"
+		}
+
+
+		#minors#
+		"YAN"={
+			minor = yes
+			history = "TM_YAN_GATHERING_STORM_DESC"
+			ideology = despot
+			ideas = {				
+			}
+			focuses = {
+			}
+		}
+		"POL"={
+			minor = yes
+			history = "TM_POL_GATHERING_STORM_DESC"
+			ideology = authoritarian
+			ideas = {				
+			}
+			focuses = {
+			}
+		}
+		"CAN"={
+			minor = yes
+			history = "TM_CAN_GATHERING_STORM_DESC"
+			ideology = conservative
+			ideas = {				
+			}
+			focuses = {
+			}
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

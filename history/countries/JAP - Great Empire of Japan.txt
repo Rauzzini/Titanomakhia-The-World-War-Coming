@@ -1,0 +1,36 @@
+capital = 282
+
+
+recruit_character = JAP_hirohito
+
+set_research_slots = 2
+
+# Starting tech
+set_technology = {
+}
+
+set_convoys = 10
+
+create_faction = Tokyo_Agreement_Sphere
+
+set_politics = {
+	ruling_party = reactionary
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	conservative = 0
+	liberalist = 0
+	progressive = 0
+	authoritarian = 12
+	despot = 4
+	reactionary = 84
+	state_socialist = 0
+	radical_socialist = 0
+	totalist = 0
+}
+
+add_ideas = {
+}

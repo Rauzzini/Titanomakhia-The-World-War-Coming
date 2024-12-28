@@ -1,0 +1,35 @@
+capital = 336
+
+
+# recruit_character = 
+
+set_research_slots = 2
+
+# Starting tech
+set_technology = {
+}
+
+set_convoys = 10
+
+#ENG = {
+#	set_autonomy = {
+#		target = MAL
+#		autonomy_state = VE_imperial_colony
+#	}
+#}
+
+set_cosmetic_tag = MAL_UK
+
+set_politics = {
+	ruling_party = authoritarian
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	authoritarian = 100
+}
+
+add_ideas = {
+}

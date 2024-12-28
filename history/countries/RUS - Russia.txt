@@ -1,0 +1,36 @@
+capital = 219
+
+
+recruit_character = RUS_lavr_kornilov
+
+set_research_slots = 2
+
+# Starting tech
+set_technology = {
+}
+
+set_convoys = 10
+
+#create_faction = Novyy_Svyashchennyy_Alyans
+
+set_politics = {
+	ruling_party = despot
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	conservative = 8
+	liberalist = 6
+	progressive = 4
+	authoritarian = 6
+	despot = 72
+	reactionary = 4
+	state_socialist = 0
+	radical_socialist = 0
+	totalist = 0
+}
+
+add_ideas = {
+}

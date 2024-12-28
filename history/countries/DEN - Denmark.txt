@@ -1,0 +1,27 @@
+capital = 37
+
+
+# recruit_character = 
+
+set_research_slots = 2
+
+# Starting tech
+set_technology = {
+}
+
+#create_faction = Danish_Realm
+#add_to_faction = ICE
+
+set_politics = {
+	ruling_party = progressive
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	progressive = 100
+}
+
+add_ideas = {
+}

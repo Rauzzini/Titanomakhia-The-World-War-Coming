@@ -1,0 +1,24 @@
+capital = 317
+
+
+# recruit_character = 
+
+set_research_slots = 2
+
+# Starting tech
+set_technology = {
+}
+
+set_politics = {
+	ruling_party = despot
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	despot = 100
+}
+
+add_ideas = {
+}

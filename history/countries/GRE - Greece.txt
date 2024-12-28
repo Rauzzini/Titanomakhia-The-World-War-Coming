@@ -1,0 +1,32 @@
+capital = 47
+
+
+#recruit_character = GRE_eleftherios_venizelos
+
+set_research_slots = 2
+
+# Starting tech
+set_technology = {
+}
+
+set_politics = {
+	ruling_party = liberalist
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	conservative = 16
+	liberalist = 32
+	progressive = 12
+	authoritarian = 28
+	despot = 9
+	reactionary = 0
+	state_socialist = 0
+	radical_socialist = 2
+	totalist = 1
+}
+
+add_ideas = {
+}

@@ -1,0 +1,290 @@
+ideologies = {
+	conservative = {
+		types = {
+			conservative_subtype = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_CONSERVATIVE_1"
+			"FACTION_NAME_CONSERVATIVE_2"
+			"FACTION_NAME_CONSERVATIVE_3"
+			"FACTION_NAME_CONSERVATIVE_4"
+			"FACTION_NAME_CONSERVATIVE_5"
+			"FACTION_NAME_CONSERVATIVE_6"
+		}
+		color = { 0 0 255 }
+		rules = {
+			can_force_government = yes
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_host_government_in_exile = no
+		can_collaborate = yes
+		modifiers = {
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
+		}
+		ai_fascist = yes
+		war_impact_on_world_tension = 1
+		ai_ideology_wanted_units_factor = 1.5
+	}
+	liberalist = {
+		types = {
+			liberalist_subtype = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_LIBERALIST_1"
+			"FACTION_NAME_LIBERALIST_2"
+			"FACTION_NAME_LIBERALIST_3"
+			"FACTION_NAME_LIBERALIST_4"
+			"FACTION_NAME_LIBERALIST_5"
+			"FACTION_NAME_LIBERALIST_6"
+		}
+		color = { 246 139 31 }
+		rules = {
+			can_force_government = yes
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_host_government_in_exile = no
+		can_collaborate = yes
+		modifiers = {
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
+		}
+		ai_fascist = yes
+		war_impact_on_world_tension = 1
+		ai_ideology_wanted_units_factor = 1.5
+	}
+	progressive = {
+		types = {
+			progressive_subtype = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_PROGRESSIVE_1"
+			"FACTION_NAME_PROGRESSIVE_2"
+			"FACTION_NAME_PROGRESSIVE_3"
+			"FACTION_NAME_PROGRESSIVE_4"
+			"FACTION_NAME_PROGRESSIVE_5"
+			"FACTION_NAME_PROGRESSIVE_6"
+		}
+		color = { 194 30 86 }
+		rules = {
+			can_force_government = yes
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_host_government_in_exile = no
+		can_collaborate = yes
+		modifiers = {
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
+		}
+		ai_fascist = yes
+		war_impact_on_world_tension = 1
+		ai_ideology_wanted_units_factor = 1.5
+	}
+	authoritarian = {
+		types = {
+			authoritarian_subtype = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_AUTHORITARIAN_1"
+			"FACTION_NAME_AUTHORITARIAN_2"
+			"FACTION_NAME_AUTHORITARIAN_3"
+			"FACTION_NAME_AUTHORITARIAN_4"
+			"FACTION_NAME_AUTHORITARIAN_5"
+			"FACTION_NAME_AUTHORITARIAN_6"
+		}
+		color = { 110 110 110 }
+		rules = {
+			can_force_government = yes
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_host_government_in_exile = no
+		can_collaborate = yes
+		modifiers = {
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+		}
+		ai_fascist = yes
+		war_impact_on_world_tension = 1
+		ai_ideology_wanted_units_factor = 1.5
+	}
+	despot = {
+		types = {
+			despot_subtype = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_DESPOT_1"
+			"FACTION_NAME_DESPOT_2"
+			"FACTION_NAME_DESPOT_3"
+			"FACTION_NAME_DESPOT_4"
+			"FACTION_NAME_DESPOT_5"
+			"FACTION_NAME_DESPOT_6"
+		}
+		color = { 45 45 45 }
+		rules = {
+			can_force_government = yes
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_host_government_in_exile = no
+		can_collaborate = yes
+		modifiers = {
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+		}
+		ai_fascist = yes
+		war_impact_on_world_tension = 1
+		ai_ideology_wanted_units_factor = 1.5
+	}
+	reactionary = {
+		types = {
+			reactionary_subtype = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_REACTIONARY_1"
+			"FACTION_NAME_REACTIONARY_2"
+			"FACTION_NAME_REACTIONARY_3"
+			"FACTION_NAME_REACTIONARY_4"
+			"FACTION_NAME_REACTIONARY_5"
+			"FACTION_NAME_REACTIONARY_6"
+		}
+		color = { 142 57 0 }
+		rules = {
+			can_force_government = yes
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_host_government_in_exile = no
+		can_collaborate = yes
+		modifiers = {
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+		}
+		ai_fascist = yes
+		war_impact_on_world_tension = 1
+		ai_ideology_wanted_units_factor = 1.5
+	}
+	state_socialist = {
+		types = {
+			state_socialist_subtype = {} #generic
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_STATE_SOCIALIST_1"
+			"FACTION_NAME_STATE_SOCIALIST_2"
+			"FACTION_NAME_STATE_SOCIALIST_3"
+			"FACTION_NAME_STATE_SOCIALIST_4"
+			"FACTION_NAME_STATE_SOCIALIST_5"
+			"FACTION_NAME_STATE_SOCIALIST_6"
+		}
+		color = { 127 0 0 }
+		rules = {
+			can_force_government = yes
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_host_government_in_exile = no
+		can_collaborate = yes
+		modifiers = {
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+		}
+		ai_communist = yes
+		war_impact_on_world_tension = 1
+		ai_ideology_wanted_units_factor = 1.5
+	}
+	radical_socialist = {
+		types = {
+			radical_socialist_subtype = {} #generic
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_RADICAL_SOCIALIST_1"
+			"FACTION_NAME_RADICAL_SOCIALIST_2"
+			"FACTION_NAME_RADICAL_SOCIALIST_3"
+			"FACTION_NAME_RADICAL_SOCIALIST_4"
+			"FACTION_NAME_RADICAL_SOCIALIST_5"
+			"FACTION_NAME_RADICAL_SOCIALIST_6"
+		}
+		color = { 244 90 90 }
+		rules = {
+			can_force_government = yes
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_host_government_in_exile = no
+		can_collaborate = yes
+		modifiers = {
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
+		}
+		ai_communist = yes
+		war_impact_on_world_tension = 1
+		ai_ideology_wanted_units_factor = 1.5
+	}
+	totalist = {
+		types = {
+			totalist_subtype = {} #generic
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_TOTALIST_1"
+			"FACTION_NAME_TOTALIST_2"
+			"FACTION_NAME_TOTALIST_3"
+			"FACTION_NAME_TOTALIST_4"
+			"FACTION_NAME_TOTALIST_5"
+			"FACTION_NAME_TOTALIST_6"
+		}
+		color = { 255 0 0 }
+		rules = {
+			can_force_government = yes
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_host_government_in_exile = no
+		can_collaborate = yes
+		modifiers = {
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+		}
+		ai_communist = yes
+		war_impact_on_world_tension = 1
+		ai_ideology_wanted_units_factor = 1.5
+	}
+}

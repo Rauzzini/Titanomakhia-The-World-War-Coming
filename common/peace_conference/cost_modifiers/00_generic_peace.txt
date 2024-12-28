@@ -1,0 +1,98 @@
+peace_action_modifiers = {
+    generic_is_core = {
+        category = is_core
+        peace_action_type = take_states
+
+        enable = {
+            FROM.FROM.FROM = { is_core_of = ROOT.FROM }
+            OR = {
+                FROM = { pc_is_puppeted = no } # Taker is free
+                FROM = { tag = ROOT } # Taker might be subject but negotiating for itself
+            }
+        }
+
+        cost_multiplier = 0.25 # Reduced by ~75%
+    }
+
+    generic_is_core_of_puppet = {
+        category = is_core
+        peace_action_type = take_states
+
+        enable = {
+            FROM.FROM.FROM = { is_core_of = ROOT.FROM }
+            ROOT.FROM = { pc_is_puppeted = yes } # Taker is puppet or will be
+        }
+
+        cost_multiplier = 0.5
+    }
+
+    generic_is_not_losers_core = {
+        category = is_core
+        peace_action_type = take_states
+
+        enable = {
+            FROM.FROM.FROM = { is_core_of = ROOT.FROM }
+            NOT = { FROM.FROM.FROM = { is_core_of = ROOT.FROM.FROM } }
+        }
+
+        cost_multiplier = 0.95 # Reduced by 5%
+    }
+
+    generic_has_claim = {
+        category = has_claim
+        peace_action_type = take_states
+
+        enable = {
+            FROM.FROM.FROM = { is_claimed_by = ROOT.FROM }
+            ROOT.FROM = {
+                is_subject = no
+                pc_is_puppeted = no
+            }
+        }
+
+        cost_multiplier = 0.9
+    }
+
+    generic_occupies_state = {
+        category = occupation
+        peace_action_type = take_states
+
+        enable = {
+            FROM.FROM.FROM = { 
+				is_controlled_by = ROOT 
+				compliance > 0 #To prevent capitulation-occupation kicking in
+			}
+        }
+        cost_multiplier = 0.80
+    }
+
+    do_not_make_puppet = {
+        category = events_or_focuses
+        peace_action_type = puppet
+
+        enable = {
+            always = yes
+        }
+        cost_multiplier = 800
+    }
+
+    do_not_liberate = {
+        category = events_or_focuses
+        peace_action_type = liberate
+
+        enable = {
+            always = yes
+        }
+        cost_multiplier = 800
+    }
+
+    do_not_force_government = {
+        category = events_or_focuses
+        peace_action_type = force_government
+
+        enable = {
+            always = yes
+        }
+        cost_multiplier = 800
+    }
+}
