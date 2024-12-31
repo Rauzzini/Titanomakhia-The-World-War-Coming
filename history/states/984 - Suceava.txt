@@ -1,0 +1,23 @@
+state=
+{
+	id=984
+	name="STATE_984"
+	manpower = 2806400
+	
+	state_category = rural
+	
+	history={
+		owner = AUS
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = AUS
+		add_claim_by = ROM
+	}
+	provinces={
+        6761 11689 
+    }
+
+	local_supplies=0.0 
+}

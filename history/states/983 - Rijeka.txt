@@ -1,0 +1,31 @@
+state = {
+	id = 983
+	name = "STATE_983"
+	manpower = 73420
+
+	state_category = town 
+
+
+	history = {
+		owner = AUS
+		victory_points = { #Fiume (Rijeka)
+			11564 1 
+		}
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+			11564 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = AUS
+		add_claim_by = ITA
+		add_claim_by = HUN
+	}
+
+	provinces = {
+		11564
+	}
+
+	local_supplies = 0.0 
+}

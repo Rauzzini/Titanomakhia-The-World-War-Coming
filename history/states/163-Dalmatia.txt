@@ -1,30 +1,39 @@
 state = {
 	id = 163
 	name = "STATE_163"
-	manpower = 18000
+	manpower = 803930
 	
-	state_category = enclave
+	state_category = large_town
 	
 	history = {
-		owner = AUS
+		owner = CZE
+		victory_points = { #Split
+			3924 3
+		}
 		victory_points = { #Zara/Zadar
 			3943 5 
 		}
+		victory_points = { #Dubrovnik
+			6889 3 
+		}
 		buildings = {
 			infrastructure = 3 #was: 5
+			dockyard = 1
+			industrial_complex = 2
+			3924 = {
+				naval_base = 3
+			}
 			3943 = {
 				naval_base = 1
 			}
+			6889 = {
+				naval_base = 1
+			}
 		}
-		add_core_of = AUS
-
-		### CHANGED TO A MROE ROBUST SYSTEM
-		##CONTROLLED BY ITALY AT GAME START -> ITALIAN NAMES
-		#set_state_name = STATE_163_ITA
-		#set_province_name = { id = 3943 name = VICTORY_POINTS_3943_ITA }
+		add_core_of = CZE
 	}
 	provinces = {	
-		3943 
+		3868 3924 3943 3974  6889 11816 11901 
 	}
 
 	local_supplies = 0.0 

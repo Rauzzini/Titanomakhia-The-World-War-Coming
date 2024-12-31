@@ -1,7 +1,7 @@
 capital = 16
 
 
-recruit_character = FRA_jean_de_orleans
+#recruit_character = FRA_jean_de_orleans
 
 set_research_slots = 2
 

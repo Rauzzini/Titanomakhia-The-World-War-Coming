@@ -1,0 +1,22 @@
+state={
+	id=982
+	name="STATE_982"
+	manpower = 92295 # was 1144300 before Ljubljana split
+	
+	state_category = pastoral
+	
+	history =
+	{
+		owner = AUS
+		buildings = {
+			infrastructure = 2
+		}
+		add_claim_by = HUN
+		add_core_of = AUS
+	}
+	provinces={
+		6672
+	}
+	
+	local_supplies=0.0 
+}

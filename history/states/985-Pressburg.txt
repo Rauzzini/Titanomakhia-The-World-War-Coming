@@ -1,0 +1,35 @@
+state = {
+
+	id = 985
+
+	name = "STATE_985"
+
+	manpower = 417389
+	
+	state_category = city
+
+	history = {
+
+		owner = AUS
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 3
+		}
+
+		victory_points = {
+			9692 10 # Bratislava
+		}
+        add_claim_by = HUN
+		add_core_of = AUS
+		
+	}
+
+	provinces = {
+		9692
+	}
+
+	local_supplies = 3.0 
+}

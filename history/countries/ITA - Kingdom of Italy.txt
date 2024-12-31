@@ -1,7 +1,7 @@
 capital = 2
 
 
-recruit_character = ITA_benito_mussolini
+#recruit_character = ITA_benito_mussolini
 
 set_research_slots = 2
 
