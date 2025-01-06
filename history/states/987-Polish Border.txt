@@ -1,0 +1,22 @@
+state={
+	id=987
+	name="STATE_987"
+	manpower = 1074390
+	
+	state_category = town
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		add_core_of = GER
+        add_claim_by = POL
+	}
+
+	provinces={
+		584 9439 9546 11515 
+	}
+
+	local_supplies=0.0 
+}
