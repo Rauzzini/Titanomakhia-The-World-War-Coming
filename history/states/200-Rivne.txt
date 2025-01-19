@@ -6,9 +6,8 @@ state = {
 
 	history = {
 
-		owner = SOV
-		add_core_of = SOV
-		add_core_of = UKR
+		owner = RUS
+		add_core_of = RUS
 
 		victory_points = {
 			11405 1 # Zaporozhe
@@ -21,12 +20,6 @@ state = {
 			# Dnieprostroi Hydroelectric Station
 			11405 = { dam = 1 }
 			
-		}
-		
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 1
-			}
 		}
 	}
 

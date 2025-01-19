@@ -6,7 +6,8 @@ state={
 	}
 
 	history={
-		owner = INS
+		owner = NEI
+		add_claim_by = NEI
 		add_core_of = INS
 		buildings = {
 			infrastructure = 2

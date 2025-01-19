@@ -7,8 +7,8 @@ state = {
 
 	history = {
 
-		owner = SOV
-		add_core_of = SOV
+		owner = RUS
+		add_core_of = RUS
 
 		victory_points = {
 			3529 30 # Stalingrad
@@ -23,12 +23,6 @@ state = {
 			# 22nd Congress of the CPSU Stalingrad Hydroelectric Power Station
 			#3555 = { dam = 1 }
 
-		}
-		
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 2
-			}
 		}
 	}
 

@@ -5,8 +5,8 @@ state = {
 
 	history = {
 
-		owner = SAU
-		add_core_of = SAU
+		owner = OTT
+		add_core_of = OTT
 
 		victory_points = {
 			12758 2 

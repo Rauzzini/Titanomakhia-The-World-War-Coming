@@ -6,7 +6,8 @@ state={
 	state_category = pastoral
 
 	history= {
-		owner = INS
+		owner = NEI
+		add_claim_by = NEI
 		add_core_of = INS
 		victory_points = {
 			12371 1 
